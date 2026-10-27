@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "0.1.7",
-  "url": "https://github.com/umusicrrr-jpg/coursespromo-apk/releases/download/v0.1.7/CoursesPromo-0.1.7.apk",
-  "notes": "Thème sombre : la barre d'état reste lisible."
+  "versionCode": 9,
+  "versionName": "0.1.8",
+  "url": "https://github.com/umusicrrr-jpg/coursespromo-apk/releases/download/v0.1.8/CoursesPromo-0.1.8.apk",
+  "notes": "Widget des courses pour l'écran d'accueil (Réglages → Écran d'accueil → Ajouter) : le caddie dans l'ordre du trajet, + pour ajouter un produit."
 }
