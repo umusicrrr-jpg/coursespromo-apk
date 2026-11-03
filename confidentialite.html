@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CoursesPromo · Politique de confidentialité</title>
+<style>
+:root{--fond:#FFFBF7;--texte:#1A120C;--doux:#6E5B50;--vert:#0E6B63;--bord:#EEE2D8}
+@media (prefers-color-scheme: dark){:root{--fond:#14110F;--texte:#F3ECE6;--doux:#B8A89C;--vert:#5CC8BA;--bord:#332B26;color-scheme:dark}}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Rubik,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2rem max(1rem,env(safe-area-inset-left)) 3rem}
+h1{font-size:1.7rem;line-height:1.2;margin:0 0 .25rem;color:var(--vert)}
+h2{font-size:1.15rem;margin:2rem 0 .5rem}
+.date{color:var(--doux);margin:0 0 1.5rem}
+nav a{color:var(--vert)}
+section+section{border-top:1px solid var(--bord);margin-top:3rem;padding-top:1rem}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+td,th{border-top:1px solid var(--bord);padding:.5rem .4rem;vertical-align:top;text-align:start}
+.tableau{overflow-x:auto}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#fr">Français</a> · <a href="#he">עברית</a></nav>
+
+<section id="fr" lang="fr">
+<h1>CoursesPromo : politique de confidentialité</h1>
+<p class="date">En vigueur le 2 novembre 2026.</p>
+
+<p>CoursesPromo est une app Android de liste de courses qui compare les prix publics des
+supermarchés autour de Netanya (Israël). Elle est faite par un développeur indépendant.
+Contact : <a href="mailto:contact@babelo.app">contact@babelo.app</a>.</p>
+
+<h2>En bref</h2>
+<p>Ta liste, tes produits, tes tickets, tes photos et ta position <b>restent sur ton téléphone</b>.
+Il n'y a ni compte, ni serveur à nous, ni publicité, ni outil de mesure d'audience. L'app
+<b>télécharge</b> des données publiques ; elle n'envoie que ce qui est décrit ci-dessous.</p>
+
+<h2>Ce que l'app télécharge</h2>
+<p>Chaque jour, en Wi-Fi, les fichiers de prix et de promotions que les chaînes de supermarchés
+publient pour tout le monde, depuis leurs propres sites. Le fond de carte vient
+d'OpenStreetMap. Les modèles de lecture et de traduction viennent de Google (une fois, en Wi-Fi).
+Ces téléchargements ne contiennent rien sur toi ; comme pour toute page web,
+les serveurs voient l'adresse internet (IP) du téléphone et, pour la carte, la zone regardée.</p>
+
+<h2>Ce qui sort du téléphone</h2>
+<div class="tableau"><table>
+<tr><th>Quoi</th><th>Vers qui</th><th>Quand</th></tr>
+<tr><td>Les adresses publiées des magasins, pour les placer sur la carte</td><td>Nominatim (OpenStreetMap)</td><td>Après le téléchargement des prix. Ce sont les adresses des magasins, pas la tienne.</td></tr>
+<tr><td>L'adresse de ta maison, si tu choisis « Écrire l'adresse »</td><td>Nominatim (OpenStreetMap), pour la trouver sur la carte</td><td>Seulement après ton accord (« Ton adresse part chez OpenStreetMap pour être trouvée. D'accord ? »). « Me localiser » et « Poser sur la carte » n'envoient rien.</td></tr>
+<tr><td>Des informations techniques d'usage de la lecture des tickets et de la traduction (nom et version de l'app, modèle du téléphone, version d'Android, durées, codes d'erreur, identifiant d'installation)</td><td>Google, par sa bibliothèque ML Kit</td><td>Pendant l'utilisation. Ni l'image du ticket ni les mots traduits ne sont envoyés : la lecture et la traduction se font sur le téléphone. Google décrit ces données sur <a href="https://developers.google.com/ml-kit/android-data-disclosure">sa page ML Kit</a>.</td></tr>
+<tr><td>La destination d'un trajet (le magasin choisi)</td><td>Waze</td><td>Seulement quand tu touches « Lancer le trajet dans Waze ».</td></tr>
+</table></div>
+<p>Tout passe en connexion chiffrée (HTTPS), sauf le portail de prix d'une partie des chaînes,
+qui n'existe qu'en FTP : on n'y envoie rien, on y télécharge seulement.</p>
+
+<h2>Ta position</h2>
+<p>L'app demande la position du téléphone à la mise en route (tu peux répondre « Pas maintenant »)
+ou quand tu touches « Me localiser » (placer ta maison) ou « Je suis dans ce magasin », toujours
+après t'avoir expliqué à quoi elle sert. Elle est utilisée sur le
+téléphone et n'est envoyée nulle part. Jamais en arrière-plan. Tu peux la retirer dans les
+réglages d'Android.</p>
+
+<h2>Appareil photo</h2>
+<p>Les photos de produits et de tickets sont prises seulement quand tu le demandes et restent dans
+l'app. La lecture des prix du ticket se fait sur le téléphone.</p>
+
+<h2>Journal de plantage</h2>
+<p>Si l'app plante, une note technique (sans aucune donnée personnelle) est écrite sur le téléphone,
+dans Téléchargements/CoursesPromo. Elle n'est envoyée à personne ; tu peux la partager toi-même si
+tu veux aider à corriger le problème.</p>
+
+<h2>Combien de temps, et comment tout effacer</h2>
+<p>Tes données restent sur le téléphone tant que l'app est installée. Pour tout effacer :
+désinstalle l'app, ou Réglages d'Android → Applications → CoursesPromo → Stockage → Effacer les
+données. Les sauvegardes que tu fais toi-même (Réglages → Mes données) sont des fichiers dans
+Téléchargements/CoursesPromo, que tu peux supprimer. Nous ne gardons rien : il n'y a rien à nous
+demander d'effacer. Ce que reçoivent OpenStreetMap et Google suit leurs propres règles
+(<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap</a>,
+<a href="https://policies.google.com/privacy">Google</a>).</p>
+
+<h2>Enfants</h2>
+<p>L'app ne s'adresse pas aux enfants et ne recueille rien sur eux.</p>
+
+<h2>Changements</h2>
+<p>Si cette politique change, la date en haut de la page change aussi, et la nouvelle version est
+publiée ici avant la version de l'app concernée.</p>
+</section>
+
+<section id="he" lang="he" dir="rtl">
+<h1>CoursesPromo: מדיניות פרטיות</h1>
+<p class="date">בתוקף מ־2 בנובמבר 2026.</p>
+
+<p>CoursesPromo היא אפליקציית אנדרואיד לרשימת קניות, שמשווה את המחירים הציבוריים של רשתות
+השיווק באזור נתניה. היא פותחה על ידי מפתח עצמאי. יצירת קשר: <a href="mailto:contact@babelo.app">contact@babelo.app</a>.</p>
+
+<h2>בקצרה</h2>
+<p>הרשימה, המוצרים, הקבלות, התמונות והמיקום שלך <b>נשארים בטלפון</b>. אין חשבון, אין שרת שלנו,
+אין פרסומות ואין כלי מדידה. האפליקציה <b>מורידה</b> מידע ציבורי, ושולחת רק את מה שמתואר כאן.</p>
+
+<h2>מה האפליקציה מורידה</h2>
+<p>בכל יום, ב־Wi-Fi, את קובצי המחירים והמבצעים שרשתות השיווק מפרסמות לכולם, מהאתרים שלהן.
+המפה מגיעה מ־OpenStreetMap. מודלי הקריאה והתרגום מגיעים מ־Google (פעם אחת, ב־Wi-Fi). ההורדות
+האלה לא כוללות שום מידע עליך; כמו בכל אתר, השרתים רואים את כתובת ה־IP של הטלפון, ובמפה גם את
+האזור שמוצג.</p>
+
+<h2>מה יוצא מהטלפון</h2>
+<div class="tableau"><table>
+<tr><th>מה</th><th>למי</th><th>מתי</th></tr>
+<tr><td>הכתובות המפורסמות של החנויות, כדי למקם אותן במפה</td><td>Nominatim (OpenStreetMap)</td><td>אחרי הורדת המחירים. אלה כתובות החנויות, לא שלך.</td></tr>
+<tr><td>כתובת הבית שלך, אם בחרת «לכתוב את הכתובת»</td><td>Nominatim (OpenStreetMap), כדי למצוא אותה במפה</td><td>רק אחרי שהסכמת. «אתר אותי» ו«לסמן במפה» לא שולחים כלום.</td></tr>
+<tr><td>מידע טכני על השימוש בקריאת הקבלות ובתרגום (שם וגרסת האפליקציה, דגם הטלפון, גרסת אנדרואיד, זמנים, קודי שגיאה, מזהה התקנה)</td><td>Google, דרך הספרייה ML Kit</td><td>בזמן השימוש. לא תמונת הקבלה ולא המילים המתורגמות: הקריאה והתרגום נעשים בטלפון. Google מתארת את המידע הזה <a href="https://developers.google.com/ml-kit/android-data-disclosure">בעמוד של ML Kit</a>.</td></tr>
+<tr><td>היעד של מסלול (החנות שנבחרה)</td><td>Waze</td><td>רק כשנוגעים ב«להתחיל את המסלול ב־Waze».</td></tr>
+</table></div>
+<p>הכול עובר בחיבור מוצפן (HTTPS), חוץ מפורטל המחירים של חלק מהרשתות, שקיים רק ב־FTP: לשם
+לא שולחים כלום, רק מורידים.</p>
+
+<h2>המיקום שלך</h2>
+<p>האפליקציה מבקשת את מיקום הטלפון בהפעלה הראשונה (אפשר לענות «לא עכשיו»), או כשנוגעים
+ב«אתר אותי» (למיקום הבית) או «אני בחנות הזאת», ותמיד אחרי הסבר למה הוא משמש. הוא משמש בטלפון
+בלבד ולא נשלח לשום מקום. אף פעם לא ברקע. אפשר לבטל אותו בהגדרות של אנדרואיד.</p>
+
+<h2>מצלמה</h2>
+<p>תמונות של מוצרים ושל קבלות מצולמות רק כשמבקשים, ונשארות באפליקציה. קריאת המחירים בקבלה
+נעשית בטלפון.</p>
+
+<h2>יומן קריסות</h2>
+<p>אם האפליקציה קורסת, נכתבת הערה טכנית (בלי שום מידע אישי) בטלפון, בתיקייה
+Download/CoursesPromo. היא לא נשלחת לאף אחד; אפשר לשתף אותה בעצמך כדי לעזור לתקן.</p>
+
+<h2>כמה זמן, ואיך למחוק הכול</h2>
+<p>המידע נשאר בטלפון כל עוד האפליקציה מותקנת. כדי למחוק הכול: להסיר את האפליקציה, או הגדרות
+אנדרואיד ← אפליקציות ← CoursesPromo ← אחסון ← ניקוי נתונים. גיבויים שעשית בעצמך הם קבצים
+בתיקייה Download/CoursesPromo, ואפשר למחוק אותם. אנחנו לא שומרים כלום, אז אין מה לבקש מאיתנו
+למחוק. מה ש־OpenStreetMap ו־Google מקבלות כפוף לכללים שלהן
+(<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap</a>,
+<a href="https://policies.google.com/privacy">Google</a>).</p>
+
+<h2>ילדים</h2>
+<p>האפליקציה לא מיועדת לילדים ולא אוספת עליהם מידע.</p>
+
+<h2>שינויים</h2>
+<p>אם המדיניות משתנה, גם התאריך בראש העמוד משתנה, והגרסה החדשה מתפרסמת כאן לפני גרסת
+האפליקציה הנוגעת בדבר.</p>
+</section>
+</main>
+</body>
+</html>
