@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "0.2.0",
-  "url": "https://github.com/umusicrrr-jpg/coursespromo-apk/releases/download/v0.2.0/CoursesPromo-0.2.0.apk",
-  "notes": "Mise en route au premier lancement (la position expliquée avant d'être demandée). App plus légère (31,8 Mo au lieu de 41). Journal de plantage dans Téléchargements/CoursesPromo."
+  "versionCode": 12,
+  "versionName": "0.2.1",
+  "url": "https://github.com/umusicrrr-jpg/coursespromo-apk/releases/download/v0.2.1/CoursesPromo-0.2.1.apk",
+  "notes": "La fiche produit dit le vrai jour des prix (« prix du 06/11 ») au lieu de « ce matin »."
 }
